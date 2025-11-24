@@ -1,0 +1,35 @@
+{
+  "name": "ts",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tklib_translate_spots_desc": "node dist/libs/trannlate_spots_desc.js",
+    "tklib_translate_spots_ad": "node dist/libs/trannlate_spots_ad.js",
+    "tklib_translate_locations_ad": "node dist/libs/trannlate_locations_ad.js",
+    "tklib_translate_locations_name": "node dist/libs/trannlate_locations_name.js",
+    "tklib_translate_walkingguides_desc": "node dist/libs/trannlate_walkingguides_desc.js",
+    "py_tklib_locations": "node dist/libs/py_tklib_locations.js",
+    "py_tklib_spots": "node dist/libs/py_tklib_spots.js",
+    "tklib_translate_spots_title": "node dist/libs/trannlate_spots_title.js",
+    "tsc": "tsc --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "axios": "^1.13.1",
+    "drizzle-kit": "^0.31.6",
+    "drizzle-orm": "^0.44.7",
+    "hono": "^4.10.4",
+    "nanoid": "^5.1.6",
+    "openai": "^6.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
